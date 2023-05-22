@@ -9,4 +9,4 @@ spec:
     - name: revision
       value: master
     - name: url
-      value: https://github.com/IBM/tekton-tutorial
+      value: https://github.com/brijeshdoshi2/tekton-tutorial.git
