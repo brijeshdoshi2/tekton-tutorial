@@ -2,7 +2,7 @@ apiVersion: serving.knative.dev/v1beta1
 kind: Service
 metadata:
   name: picalc
-  namespace: default
+  namespace: pipelines-tutorial
 spec:
   runLatest:
     configuration:
