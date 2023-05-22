@@ -1,7 +1,8 @@
-apiVersion: tekton.dev/v1alpha1
+apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
   name: build-and-deploy-pipeline
+  namespace: pipelines-tutorial
 spec:
   resources:
     - name: git-source
